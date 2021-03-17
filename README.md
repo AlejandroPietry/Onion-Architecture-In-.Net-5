@@ -36,3 +36,6 @@ normalmente adicionamos interfaces que consistirão em padrão de acesso a dados
 <p>
  A UI nada mais é do que um aplicativo front-end que se comunicará com esta API. 
 </p>
+
+## A solução fica assim:
+<img src="https://csharpcorner.azureedge.net/article/onion-architecture-in-net-5/Images/O6.png"/>
