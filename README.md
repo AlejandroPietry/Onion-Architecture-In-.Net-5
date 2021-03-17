@@ -9,7 +9,7 @@ A Onion Architecture foi informada por Jeffrey Palermo por oferecer um método s
 praticidade e constância. A Onion Architecture atende às dificuldades enfrentadas com arquiteturas de 3 e n camadas e dá uma resposta para problemas normais. 
 As camadas se associam umas às outras utilizando as interfaces.
 </p>
-<img src="https://csharpcorner.azureedge.net/article/onion-architecture-in-net-5/Images/O2.png">
+<img src="https://csharpcorner.azureedge.net/article/onion-architecture-in-net-5/Images/O2.png" height="300px" width="300px">
 
 ## Camadas da arquitetura
 <p>
@@ -28,4 +28,11 @@ normalmente adicionamos interfaces que consistirão em padrão de acesso a dados
 </p>
 
 #### Services Layer
+<p>
+ Esta camada é usada para a comunicação entre a camada do Repositório e o Projeto Principal, onde consiste em APIs exponíveis. A camada de serviço também pode conter a lógica de negócios de uma entidade. Nesta camada, as interfaces de serviço são mantidas separadas de sua implementação para o acoplamento fraco e também a separação de interesses. 
+</p>
+
 #### UI Layer
+<p>
+ A UI nada mais é do que um aplicativo front-end que se comunicará com esta API. 
+</p>
