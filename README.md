@@ -20,10 +20,12 @@ Basicamente, ele usa o conceito de camadas, mas são diferentes das camadas de 3
 <p>
 Ele existe na parte central da Onion Architecture, onde consiste em todas as entidades de domínio de aplicativo que nada mais são do que modelos de banco de dados criados pela abordagem de code first.
 </p>
+
 #### Repository Layer
 <p>
 A camada de repositório atua como uma camada intermediária entre os serviços e as models e nesta camada, manteremos todas as migrações de banco de dados e o application Data context e nesta camada, 
 normalmente adicionamos interfaces que consistirão em padrão de acesso a dados de leitura e gravar operações envolvendo um banco de dados.
 </p>
+
 #### Services Layer
 #### UI Layer
