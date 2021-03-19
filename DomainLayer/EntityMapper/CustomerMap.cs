@@ -17,8 +17,11 @@ namespace DomainLayer.EntityMapper
                 .HasName("pk_customerId");
 
             builder.Property(x => x.Id).ValueGeneratedOnAdd()
-                .HasColumnName("Id")
-                .HasColumnType("INT");
+                .HasColumnName("Id");
+
+            builder.Property(x => x.CustomerName)
+                .HasColumnName("Customer_Name")
+                .HasColumnType("NVARCHAR(50)");
 
             builder.Property(x => x.PurchasesProduct)
                 .HasColumnName("purchased_product")
