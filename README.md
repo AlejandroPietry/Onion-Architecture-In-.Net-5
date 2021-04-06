@@ -39,3 +39,10 @@ normalmente adicionamos interfaces que consistirão em padrão de acesso a dados
 
 ## 💯 A solução fica assim:
 <img src="https://csharpcorner.azureedge.net/article/onion-architecture-in-net-5/Images/O6.png"/>
+
+
+Commands to execute
+
+     Add-Migration 'CreateCustomerTable'
+    Update-database 
+
