@@ -8,6 +8,7 @@ using Microsoft.OpenApi.Models;
 using RepositoryLayer;
 using RepositoryLayer.RepositoryPattern;
 using ServicesLayer.CustomerService;
+using ServicesLayer.ProductService;
 
 namespace Onion_Architecture
 {
@@ -36,6 +37,7 @@ namespace Onion_Architecture
             #region Services Injected
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IProductService, ProductService>();
             #endregion
         }
 
