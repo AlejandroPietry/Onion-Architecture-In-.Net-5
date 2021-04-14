@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DomainLayer.Models;
+using Microsoft.AspNetCore.Mvc;
 using ServicesLayer.ProductService;
 
 namespace Onion_Architecture.Controllers
@@ -24,6 +25,13 @@ namespace Onion_Architecture.Controllers
         public IActionResult GetAllProducts()
         {
             return Ok(_productService.GetAllProducts());
+        }
+
+        [HttpPost]
+        public IActionResult InsertProduct(Product product)
+        {
+            _productService.Insert(product);
+            return Ok("Product inserted");
         }
 
     }
