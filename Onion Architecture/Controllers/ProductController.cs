@@ -27,7 +27,7 @@ namespace Onion_Architecture.Controllers
             return Ok(_productService.GetAllProducts());
         }
 
-        [HttpPost]
+        [HttpPost(nameof(InsertProduct))]
         public IActionResult InsertProduct(Product product)
         {
             _productService.Insert(product);
