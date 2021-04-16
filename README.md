@@ -1,6 +1,10 @@
 ## 🔰 Onion Architecture In .Net 5
 Neste projeto, vamos cobrir a arquitetura Onion no ASP.Net 5.0. Como todos sabemos, é um framework recém-lançado, foi lançado oficialmente no mês de novembro.
 
+
+## 🔰 Alguns end-points da api
+![image](https://user-images.githubusercontent.com/52106304/114958694-ece9c580-9e39-11eb-849f-df6e5255cbff.png)
+
 ## 🔰 O que é a Onion Architecture? 
  
 <p>
@@ -40,6 +44,12 @@ normalmente adicionamos interfaces que consistirão em padrão de acesso a dados
 ## 💯 A solução fica assim:
 <img src="https://csharpcorner.azureedge.net/article/onion-architecture-in-net-5/Images/O6.png"/>
 
+## 🚀 Tecnologias utilizadas
+- Entity Framework core
+- Asp Net Core
+- .Net 5.0
+- Swagger
+- -SQLite
 
 Commands to execute
 
