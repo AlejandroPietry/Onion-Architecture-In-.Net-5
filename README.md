@@ -12,7 +12,7 @@ A Onion Architecture foi informada por Jeffrey Palermo por oferecer um método s
 praticidade e constância. A Onion Architecture atende às dificuldades enfrentadas com arquiteturas de 3 e n camadas e dá uma resposta para problemas normais. 
 As camadas se associam umas às outras utilizando as interfaces.
 </p>
-<img src="https://csharpcorner.azureedge.net/article/onion-architecture-in-net-5/Images/O2.png" height="300px" width="300px">
+<img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/onion-architecture-in-net-5/Images/O2.png" height="300px" width="300px">
 
 ## 🔰 Camadas da arquitetura
 <p>
