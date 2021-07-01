@@ -1,6 +1,5 @@
 ## 🔰 Onion Architecture In .Net 5
-Neste projeto, vamos cobrir a arquitetura Onion no ASP.Net 5.0. Como todos sabemos, é um framework recém-lançado, foi lançado oficialmente no mês de novembro.
-
+Neste projeto, vamos cobrir a arquitetura Onion no ASP.Net 5.0!
 
 ## 🔰 Alguns end-points da api
 ![image](https://user-images.githubusercontent.com/52106304/114958694-ece9c580-9e39-11eb-849f-df6e5255cbff.png)
